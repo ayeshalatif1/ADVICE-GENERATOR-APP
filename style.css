@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    width: 100%;
+    background-color: hsl(218, 23%, 16%);
+
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advice-box {
+    border: 2px solid black;
+    text-align: center;
+    background-color: hsl(217, 19%, 24%);
+    border: 2px solid hsl(217, 19%, 24%);
+    padding: 1rem;
+    height: 20rem;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    box-shadow: 2px 2px hsl(217, 19%, 24%);
+    width: fit-content;
+
+}
+
+#adv-num {
+    color: hsl(150, 100%, 66%);
+    font-family: Manrope;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+
+#advice {
+    color: hsl(193, 38%, 86%);
+    font-size: 28px;
+    font-family: Manrope;
+    font-weight: bold;
+    width: 30rem;
+}
+
+.icon {
+    background-color: hsl(150, 100%, 66%);
+    padding: 0.9em;
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 13%;
+}
+
+.icon:hover {
+    box-shadow: 0px 0px 20px 10px hsl(150, 100%, 66%);
+}
+
+#mobile-divider {
+    display: none;
+}
+
+@media screen and (max-width:375px) {
+    .container {
+        width: 100%;
+        height: 100vh;
+    }
+
+    .advice-box {
+        width: 80%;
+    }
+
+    #advice {
+        width: 20rem;
+        ;
+    }
+
+    #mobile-divider {
+        display: block;
+    }
+
+    #mobile-divider {
+        justify-self: center;
+        align-self: center;
+        margin-left: 25%;
+    }
+
+    .icon {
+        bottom: 7%;
+    }
+
+    #desktop-divider {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .advice-box {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    #desktop-divider {
+        display: none;
+    }
+
+    #mobile-divider {
+        display: block;
+    }
+
+    #advice {
+        width: 20rem;
+    }
+
+    .icon {
+        bottom: 6%;
+    }
+
+}
+
+@media screen and (min-width:768px) and (max-width:1204px) {
+    .icon {
+        bottom: 15%;
+    }
+
+}
+
+
+@media screen and (width:1244px) {
+    .icon {
+        bottom: 28%;
+    }
+}
