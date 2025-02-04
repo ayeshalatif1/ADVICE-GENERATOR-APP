@@ -26,6 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
+https://github.com/ayeshalatif1/ADVICE-GENERATOR-APP/blob/main/solution.PNG
 
 ### Links
 
