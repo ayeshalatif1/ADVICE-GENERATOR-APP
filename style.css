@@ -89,7 +89,8 @@ body {
 
     #advice {
         width: 20rem;
-        ;
+        padding-left: 1rem;
+        padding-right: 1rem;
     }
 
     #mobile-divider {
@@ -97,9 +98,10 @@ body {
     }
 
     #mobile-divider {
-        justify-self: center;
-        align-self: center;
-        margin-left: 25%;
+        display: block;
+        width: 80%;
+        margin-right: 10%;
+        margin-left: 10%;
     }
 
     .icon {
